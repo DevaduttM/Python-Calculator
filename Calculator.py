@@ -128,7 +128,7 @@ class Calc:
         if len(self.current)==0:
             pass
         else:
-            self.current = str(int(eval(self.current)**0.5))
+            self.current = str(eval(self.current)**0.5)
             self.updatecurrentl()        
 
     def squarebutton(self):
